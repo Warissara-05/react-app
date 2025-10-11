@@ -4,12 +4,12 @@ import Container from './features/Container';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Container>
         <Home />
       </Container>
-    </div>
+    </>
   );
 }
 
